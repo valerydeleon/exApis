@@ -29,7 +29,7 @@
                                 <a class="btn-floating light-blue darken-3 waves-effect waves-light btn modal-trigger" href="#modalChat"><i class="material-icons">chat</i></a>
                             </li>
                             <li>
-                                <a class="btn-floating amber lighten-1"><i class="material-icons">perm_media</i></a>
+                                <a class="btn-floating amber lighten-1 modal-trigger" href="#modalIMG"><i class="material-icons">perm_media</i></a>
                             </li>
                             <li>
                                 <a class="btn-floating pink darken-1"><i class="material-icons">today</i></a>
@@ -48,7 +48,7 @@
             
             
             
-            <!-- Modal Structure -->
+            <!-- INICIA MODAL CHAT -->
             <div id="modalChat" class="modal">
                 <div class="modal-content">
                     <div class="row">
@@ -76,6 +76,40 @@
                     </div>
                 </div>
             </div>
+            <!-- TERMINA MODAL CHAT -->
+            
+            <!-- INICIA MODAL IMAGEN -->
+            <div id="modalIMG" class="modal">
+                <div class="modal-content">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Escribe aquí un título" id="first_name" type="text" class="<va></va>lidate">
+                            <label for="first_name green">Título</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <form action="#">
+                            <div class="file-field input-field ">
+                                <div class="btn amber lighten-1">
+                                    <span>File</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="row modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-light btn amber lighten-1">
+                            Publicar <i class="material-icons right">send</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- TERMINA MODAL IMAGEN -->
    
         </section>
         
